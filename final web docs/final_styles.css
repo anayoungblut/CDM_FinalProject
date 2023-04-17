@@ -7,7 +7,7 @@
 
   .menu-container ul {
     color: #ffffff;  
-    background-color: #989188;  
+    background-color: hsl(280, 3%, 40%);  
     padding: 20px 0;
     display: flex; 
     justify-content: space-around;
@@ -16,24 +16,24 @@
   }
  
 body {
-  background-color: #989188;
+  background-color: hsl(280, 3%, 40%);
 }
   a:link {
-    color: #ffffff;  
+    color: hsl(280, 2%, 63%);  
     text-decoration: underline;
   }
   a:visited {
-    color:  hsl(30, 8%, 69%);  
+    color:  hwb(0 100% 0%);  
   }
   a:hover {
-    color:  #9d8e7f;  
+    color:  hsl(300, 11%, 52%);  
     text-decoration: underline;
   }
   a:active {
     color:  hsl(0, 14%, 1%);  
   }
   a:visited:hover {
-    color:  #7e7164;  
+    color:  hsl(290, 45%, 16%);  
   }
   a:visited:active {
     color:  rgb(4, 4, 3);  
@@ -71,7 +71,7 @@ body {
   }
 
   .title {
-    color: #989188;    
+    color: hsl(280, 3%, 40%);   
     background-color: rgb(255, 255, 255); 
     padding: 20px 0;
     display: flex; 
@@ -87,7 +87,7 @@ body {
 
   .description {
     color:rgb(255, 255, 255); 
-    background-color: #989188;     
+    background-color: hsl(280, 3%, 40%);    
     padding: 20px 0;
     display: flex; 
     justify-content: center; 
@@ -131,3 +131,4 @@ body {
     align-items: center;
   }
 
+ 
